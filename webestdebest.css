@@ -1,0 +1,112 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 150px;
+  width: 300px;
+  border: 1px white solid;
+  padding: 10px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.scan-button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: 1px white solid ;
+  border-radius: 25px;
+  margin-left: 5px;
+  font-family: impact;
+}
+
+.scan-button:active {
+  opacity: 0.5;
+}
+
+label {
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+p {
+  color: white;
+}
+
+.total-text {
+  padding-right: 0;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.container2 {
+  height: 150px;
+  width: 300px;
+  border: 1px white solid;
+  padding: 10px;
+  margin-left: 41%;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.total-button {
+  background-color: white;
+  color: black;
+  padding: 10px 40px 10px 40px;
+  border: black solid ;
+  border-radius: 25px;
+  margin-left: 50px;
+  font-family: impact;
+  font-size: 60px;
+  border-width: 5px;
+}
+
+.total-button:active {
+  opacity: 0.5;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.ayaw-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+
+.ayaw-text {
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+.table-container{
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+table,td,tr {
+  border-collapse: collapse;
+  border: 1px solid;
+  padding: 10px 10px;
+}
