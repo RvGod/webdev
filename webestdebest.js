@@ -4,13 +4,13 @@ function scanButton(){
 
   switch (barcode1){
   case 10101:
-  price1 = 100;
+  price1 = 100 * quantity2;
   document.getElementById("item1").textContent = "sabaw";
   document.getElementById("price1").textContent = "100"; 
   break;
 
   case 20202:
-  price1 = 200* quantity1;
+  price1 = 200 * quantity1;
   document.getElementById("item1").textContent = "lanchaw";
   document.getElementById("price1").textContent = "200"; 
   break;
