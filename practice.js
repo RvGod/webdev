@@ -87,7 +87,7 @@ function gradeButton(){
 
   document.getElementById("student-name").textContent = "ASH";
   document.getElementById("section").textContent = "BSIT-1K";
-  document.getElementById("semester-grade").textContent = `${semGrade}`;
+  
 
   if (semGrade > 3.0){
     document.getElementById("semester-grade").textContent = `${semGrade} FAILED`;
